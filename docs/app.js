@@ -4,6 +4,7 @@ console.log("app.js 실행됨");
 
 
 async function sendLocationBtn(position) {
+  console.log("Btn 실행됨");
   const data = {
     email: localStorage.getItem("userEmail") || "cccijj@gmail.com",
     latitude: position.coords.latitude,
@@ -21,4 +22,3 @@ async function sendLocationBtn(position) {
   } catch (error) {
     console.error("전송 실패:", error);
   }
-}
