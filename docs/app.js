@@ -22,3 +22,4 @@ async function sendLocationBtn(position) {
   } catch (error) {
     console.error("전송 실패:", error);
   }
+}
