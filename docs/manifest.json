@@ -1,0 +1,9 @@
+{
+  "start_url": "/",  // 절대 경로 유지
+  "icons": [
+    {
+      "src": "/rq_test/icons/icon.png",  // docs 폴더 내 /icons/ 경로 가정
+      "sizes": "192x192"
+    }
+  ]
+}
