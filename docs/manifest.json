@@ -1,9 +1,13 @@
 {
-  "start_url": "/",  // 절대 경로 유지
+  "name": "Location PWA",
+  "start_url": "/rq_test/", 
+  "scope": "/rq_test/",    
+  "display": "standalone",
   "icons": [
     {
-      "src": "/rq_test/icons/icon.png",  // docs 폴더 내 /icons/ 경로 가정
-      "sizes": "192x192"
+      "src": "/rq_test/icons/icon-192x192.png",  
+      "sizes": "192x192",
+      "type": "image/png"
     }
   ]
 }
