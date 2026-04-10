@@ -1,5 +1,5 @@
 // Google Apps Script 웹앱 URL
-const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbwk9SeVKzy0FJbmCZ5cueDxHyzXY4n-9cc8rNU9ZgsDGPyHlRpHjxHyFHGuN1CGuq9y/exec";
+const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbxiTXPNgpepjptoDvR0_n-cSqyB7VeuwdKww9xIPW2Ql4tx5IVVzDrx7K1aC--Q2jOo/exec";
 console.log("app.js 실행됨");
 
 
