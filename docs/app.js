@@ -3,7 +3,7 @@ const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbwk9SeVKzy0FJbmCZ5c
 console.log("app.js 실행됨");
 
 
-async function sendToGoogleSheet(position) {
+async function sendLocationBtn(position) {
   const data = {
     email: localStorage.getItem("userEmail") || "cccijj@gmail.com",
     latitude: position.coords.latitude,
