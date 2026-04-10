@@ -1,5 +1,7 @@
 // Google Apps Script 웹앱 URL
 const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbwk9SeVKzy0FJbmCZ5cueDxHyzXY4n-9cc8rNU9ZgsDGPyHlRpHjxHyFHGuN1CGuq9y/exec";
+console.log("app.js 실행됨");
+
 
 async function sendToGoogleSheet(position) {
   const data = {
